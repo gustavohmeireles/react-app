@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './components/saudacoes/entrevista';
+import Hope from './components/saudacoes/hope';
 
 function App() {
   return (
@@ -7,15 +9,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Olá <Welcome/> Essa é uma SPA criada como exemplo.
         </p>
+        <Hope/>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://gustavo-meireles-portfolio-1.netlify.app/index.html"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Portfólio Gustavo Meireles
         </a>
       </header>
     </div>
